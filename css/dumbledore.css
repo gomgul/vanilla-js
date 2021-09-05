@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 .backImg {
     height: 100vh;
-    background-image: url("/img/dunble.jpg");
+    background-image: url("./img/dunble.jpg");
    
     background-size : cover;
 }
