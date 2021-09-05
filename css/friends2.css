@@ -5,7 +5,7 @@
 
 .backImg {
     height: 100vh;
-    background-image: url("./img/harry4.jpg");
+    background-image: url("img/harry4.jpg");
    
     background-size : cover;
 }
