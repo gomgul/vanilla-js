@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Covered+By+Your+Grace&display=swap');
+
+
+
+
+.main-box {
+    display: flex;
+}
+
+.main-box__coursebook {
+    border: var(--border);
+    border-radius: 25px;
+    height: 400px;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+ 
+}
+.main-box__coursebook__li h2{
+    margin-left: 30px;
+}
+.main-box__coursebook__li {
+    
+    font-size: var(--font-size);
+
+}
+
+
+.main-box__coursebook__li__ul {
+    list-style: none;
+    font-family: 'Playball', cursive;
+    transition: all 0.5s linear;
+
+}
+
+
+    
+
+.main-box__coursebook__li__ul li1 :hover{
+    transform: scale( 1.2 );
+}
+
+
+
+.main-box__other {
+    margin-left: 30px;
+    margin-top: 20px;
+    border: var(--border);
+    border-radius: 25px;
+    height: 280px;
+    width: 420px;
+    color: white;
+}
+.main-box__other1 {
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    border: var(--border);
+    border-radius: 25px;
+    height: 200px;
+    width: 420px;
+    color: white;
+}
+
+.main-box__other h2 {
+    margin-left: 30px;
+}
+.main-box__other h3 {
+    margin-left: 30px;
+}
+
+.main-box__other__li__ul {
+    list-style: none;
+
+}
+
+.main-box__other1 h3 {
+    font-family: 'Sacramento', cursive;
+} 
+
+.main-box__other1 p {
+    font-family: 'Bree Serif', serif;
+}
+
+.main-box__other2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    border: var(--border);
+    border-radius: 25px;
+    height: 240px;
+    width: 350px;
+    color: white;
+    font-family: 'Carter One', cursive;
+    
+}

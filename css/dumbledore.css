@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+.backImg {
+    height: 100vh;
+    background-image: url("/img/dunble.jpg");
+   
+    background-size : cover;
+}
+
+.footer3 {
+    color:white;
+    text-align: center;
+    margin-top: 200px;
+    opacity: 0.4;
+    font-size: 35px;
+    font-family: 'Handlee', cursive;
+}

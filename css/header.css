@@ -1,0 +1,90 @@
+
+/*
+body {
+    position: relative;
+}
+.aa {
+    position:absolute;
+}
+*/
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+
+.header__title {
+    font-size: 30px;
+    display: flex;
+}
+
+.header__title__img {
+    width:100px;
+    height:100px;
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 20px;
+    
+    transition: all ease 1s;
+    
+}
+
+.header__title__img:hover {
+    transform: rotate( 720deg  );
+}
+
+.header__title h1{
+    color:white;
+}
+
+.header__title a{
+    color:white;
+}
+
+
+
+.header__weather {   
+  border: var(--border);
+  font-size:20px;
+  padding: 0.2em;
+  border-radius: 0.75em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 20px;
+  transition: 0.3s all ease-in-out;
+  user-select: none;
+}
+
+.header__weather:hover{
+    color:rgb(95, 108, 224);
+    background-color: white;
+}
+
+.header__time {
+    font-size: 35px;
+    margin-right: 40px;
+    animation-duration: 5s;
+    animation-name: fadeInTopRight;
+}
+
+
+
+@keyframes fadeInTopRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, -100%, 0);
+      transform: translate3d(100%, -100%, 0);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+
+
+.backImg {
+    height: 100vh;
+    background-image: url("/img/harry4.jpg");
+   
+    background-size : cover;
+}
+
+.footer1 {
+    color:red;
+    text-align: center;
+    margin-top: 200px;
+    opacity: 0.4;
+    font-family: 'Covered By Your Grace', cursive;
+}
+

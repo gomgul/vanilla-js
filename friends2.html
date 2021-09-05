@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grade2</title>
+    <link rel="stylesheet" href="css/friends2.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/var.css">
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/todolist.css">
+</head>
+<body>
+   <div class="backImg"> 
+     <header class="header">
+       <div class="header__weather">
+            <span class="location"></span>
+            <span class="temp-weather"></span>
+       </div>  
+       <div class="header__title ">
+           <img src="img/gryffin.jpg" class="header__title__img ">
+           <a href="index.html">
+           <h1>Gryffindor</h1>
+           </a>
+       </div>
+       <div class="header__time">
+        <span>12:12:12</span>
+       </div>
+       
+     </header>
+     <main>
+        <div class="main-box">
+            <div class="main-box__coursebook">
+                <div class="main-box__coursebook__li">
+                  <h2>SECOND-YEAR REQUIRE</h2>    
+                  <ul class="main-box__coursebook__li__ul">
+                    <li>The Standard Book of Spells, Grade2</li>
+                    <li>Break with a Banshee</li>
+                    <li>Gadding with Ghouls</li>
+                    <li>Holidays with Hags</li>
+                    <li>Travels with Trolls</li>
+                    <li>Wanderings with Werewolves</li>
+                    <li>Year with the Yeti</li>
+                  </ul>
+                </div>
+            </div>
+            <div class="main-box__other1">
+                <h2>GILDEROY LOCKHART</h2>    
+                <p>will be signing copies of his autobiography</p>
+                <h3>MAGICAL ME</h3>
+                <P>today 12:30 P.M. to 4:30 P.M.</P>
+            </div>
+            <div id="js-todo" class="main-box__todo">
+                <form id="js-todoForm"class="todoform">
+                    <input id="js-todoInput"type="text" placeholder="HOMEWORK" class="todoform__input">
+
+                </form>
+                <ul id="js-todoList" class="todoform__ul"></ul>
+            </div>
+        </div>
+     </main>
+     <div class="footer1">
+         <h1>THE CHAMBER OF SECRETS HAS BEEN OPENED</h1> 
+         <h1>ENEMIES OF THE HEIR, BEWARE</h1>
+
+     </div>
+   </div>
+   <script src="js/weather.js"></script>
+   <script src="js/time.js"></script>
+   <script src="js/todo.js"></script>
+   <script
+   src="https://kit.fontawesome.com/6478f529f2.js"
+   crossorigin="anonymous"
+   ></script>
+</body>
+</html>

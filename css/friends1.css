@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+.backImg {
+    height: 100vh;
+    background-image: url("/img/harry1.png");
+   
+    background-size : cover;
+}
+
+.footer {
+    color:white;
+    text-align: center;
+    margin-top: 200px;
+    opacity: 0.4;
+    font-family: 'Handlee', cursive;
+}
