@@ -27,7 +27,8 @@
 .todoform__input {
     color:rgb(255, 251, 251);
     text-align: center;
-    background-color:rgba(0,0,0, 0.2);
+    border: none;
+    background-color:transparent;
     
 
 }
