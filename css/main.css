@@ -33,15 +33,11 @@
 .main-box__coursebook__li__ul {
     list-style: none;
     font-family: 'Playball', cursive;
-    transition: all 0.5s linear;
-
-}
-
-
+    transition: all 1.5s linear;
     
-
-.main-box__coursebook__li__ul li1 :hover{
-    transform: scale( 1.2 );
+}
+.btn:hover {
+    transform: scale(1.2, 1.5);
 }
 
 
@@ -78,6 +74,10 @@
     list-style: none;
 
 }
+
+
+
+
 
 .main-box__other1 h3 {
     font-family: 'Sacramento', cursive;
