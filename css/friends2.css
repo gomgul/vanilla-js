@@ -16,10 +16,10 @@
     margin-top: 200px;
     opacity: 0.4;
     font-family: 'Covered By Your Grace', cursive;
-    animation:fadeIn 5s;
+    animation:fadeIn 5s ;
 }
 
-@keyframes  fadeIn {
+@-webkit-keyframes  fadeIn {
     from {
         opacity: 0;
     }
