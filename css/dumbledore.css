@@ -13,4 +13,14 @@
     opacity: 0.4;
     font-size: 35px;
     font-family: 'Handlee', cursive;
+    animation:fadeIn 5s ;
+}
+
+@-webkit-keyframes  fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
