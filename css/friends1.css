@@ -24,3 +24,7 @@
     }
 }
 
+.footer:hover {
+    opacity: 1.0;
+}
+
